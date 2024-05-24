@@ -1,0 +1,17 @@
+.DS_Store
+*.pyc.vscode/
+.idea/
+.vscode/
+__pycache__/
+upload_code_to_oss.sh
+download_code_from_oss.sh
+ModelLoader/posterv2/models/pretrain/
+dafdb_log/
+data/
+AffectNetlog/
+CombineNAS
+rafdb_log
+teacher_training
+pretrain
+DataLoader/PlantVillagedata.py
+scripts/plantVillage.sh
