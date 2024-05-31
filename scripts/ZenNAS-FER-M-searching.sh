@@ -11,7 +11,7 @@ max_layers=14
 population_size=512
 evolution_max_iter=480000
 
-save_dir=dafdb_log/Zen_NAS_rafdb_flops400_idw
+save_dir=SearchLog/ZenNet-FER-M
 mkdir -p ${save_dir}
 
 echo "SuperConvK3BNRELU(3,8,2,1)SuperResIDWE6K3(8,32,2,8,1)SuperResIDWE6K3(32,48,2,32,1)\
@@ -39,14 +39,4 @@ python analyze_model.py \
   --arch Masternet.py:MasterNet \
   --plainnet_struct_txt ${save_dir}/best_structure.txt
 
-python train_image_classification.py --dataset rafdb --gpu 2 --num_classes 7 \
-  --dist_mode single --workers_per_gpu 6 \
-  --input_image_size 224 --epochs 1440 --warmup 5 \
-  --optimizer sgd --bn_momentum 0.01 --wd 5e-4 --nesterov --weight_init custom \
-  --label_smoothing --random_erase --mixup --auto_augment \
-  --lr_per_256 0.1 --target_lr_per_256 0.0 --lr_mode cosine \
-  --arch Masternet.py:MasterNet \
-  --plainnet_struct_txt ${save_dir}/best_structure.txt \
-  --batch_size_per_gpu 32 \
-  --save_dir ${save_dir}/rafdb_1440epochs
 

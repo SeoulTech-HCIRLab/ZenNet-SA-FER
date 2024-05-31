@@ -99,9 +99,6 @@ class TeacherStudentDistillNet(nn.Module):
                 if isinstance(layer, nn.BatchNorm2d):
                     layer.eps = 1e-3
 
-
-
-
     def train(self, mode=True):
         self.training = True
         self.student_model.train(mode)
