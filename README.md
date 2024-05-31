@@ -19,8 +19,8 @@ This is PyTorch implementation of the paper: "An Efficient Lightweight Neural Ne
 | model           | resolution | \# params | FLOPs | Top-1 Acc | 
 |-----------------|---------- | -------- | ----- |--------|
 | ZenNet-M-SA     | 224 | 1.01M | 400.550M | 63.94% |
-| ZenNet-R-SA     | 224 | 0.33M| 446M | 65.23%% |
-| ZenNet-M-SA (*) | 224 | 1.01M |400.550M | 64.57%% |
+| ZenNet-R-SA     | 224 | 0.33M| 446M | 65.23% |
+| ZenNet-M-SA (*) | 224 | 1.01M |400.550M | 64.57% |
 | ZenNet-M-SA (*) | 224 |  0.33M | 446M | 64.77% |
 
 The performance of ours ZenNet-SA on AffectNet-8cls dataset
