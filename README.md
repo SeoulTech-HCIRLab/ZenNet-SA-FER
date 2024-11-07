@@ -42,7 +42,7 @@ scripts/ZenNAS-FER-R-searching.sh
 - RAF-DB
 - AffectNet
 ## Training and Validation
-'--use-sa' help to add distillation block into ZenNet backbone\
+'--use_lw-attn' help to add distillation block into ZenNet backbone\
 if you want to inject SA block into all super-block in backbone, you can use the parameter '--use-sa-all'.
 ``` bash
 scripts/Train-ZenNet-SA-M-FER-rafdb.sh
