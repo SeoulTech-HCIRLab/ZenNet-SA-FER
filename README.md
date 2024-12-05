@@ -51,7 +51,7 @@ scripts/Train-ZenNet-SA-R-FER-rafdb.sh
 scripts/Train-ZenNet-SA-R-FER-AffectNet.sh
 ```
 ## Pretraining model
-The links of ours pretrain model here.
+The links of ours pretrain model here[https://drive.google.com/drive/folders/1i6j_6dhtpYyQzuFmzwiZvvjeB71ISpht?usp=sharing!].
 
 ## Open-source
 
