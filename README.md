@@ -62,13 +62,14 @@ https://github.com/idstcv/ZenNAS
 ```
 ## Citing 
 If you find this work useful, please cite the following paper:
-
+```text
 @INPROCEEDINGS{zennet-sa,
    author = {Nguyen, Trang and Han, Ji-Hyeong},
-   booktitle={2024 24rd International Conference on Control, Automation and Systems (ICCAS)}, 
+   booktitle={2024 24th International Conference on Control, Automation and Systems (ICCAS)}, 
    title = {ZenNet-SA-FER: An Efficient Lightweight Neural Network for Facial Expression},
    year = {2024}
 }
+```
 
 
 
