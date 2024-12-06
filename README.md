@@ -55,7 +55,7 @@ The links of ours pretrain model [here!](https://drive.google.com/drive/folders/
 
 ## Open-source
 
-Our code based on the official source code of Zen-NAS fof generated backbone
+Our code is based on the official source code of Zen-NAS for generated backbone
 
 ```text
 https://github.com/idstcv/ZenNAS
@@ -64,8 +64,8 @@ https://github.com/idstcv/ZenNAS
 If you find this work useful, please cite the following paper:
 ```text
 @INPROCEEDINGS{zennet-sa,
-   author = {Nguyen, Trang and Han, Ji-Hyeong},
-   booktitle={2024 24th International Conference on Control, Automation and Systems (ICCAS)}, 
+   author = {Nguyen-Trang, Hamza and Han, Ji-Hyeong},
+   booktitle={2024 24th International Conference on Control, Automation, and Systems (ICCAS)}, 
    title = {ZenNet-SA-FER: An Efficient Lightweight Neural Network for Facial Expression},
    year = {2024}
 }
