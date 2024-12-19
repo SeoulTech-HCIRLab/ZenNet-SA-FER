@@ -63,12 +63,16 @@ https://github.com/idstcv/ZenNAS
 ## Citing 
 If you find this work useful, please cite the following paper:
 ```text
-@INPROCEEDINGS{zennet-sa,
-   author = {Nguyen-Trang, Hamza and Han, Ji-Hyeong},
-   booktitle={2024 24th International Conference on Control, Automation, and Systems (ICCAS)}, 
-   title = {ZenNet-SA-FER: An Efficient Lightweight Neural Network for Facial Expression},
-   year = {2024}
-}
+@INPROCEEDINGS{10773246,
+  author={Nguyen, Trang and Nabi, Hamza Ghulam and Han, Ji-Hyeong},
+  booktitle={2024 24th International Conference on Control, Automation and Systems (ICCAS)}, 
+  title={ZenNet-SA: An Efficient Lightweight Neural Network with Shuffle Attention for Facial Expression Recognition}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={55-60},
+  keywords={Human computer interaction;Deep learning;Costs;Face recognition;Computational modeling;Neural networks;Education;Medical services;Benchmark testing;Monitoring;Facial expression recognition;light-weight model},
+  doi={10.23919/ICCAS63016.2024.10773246}}
 ```
 
 
